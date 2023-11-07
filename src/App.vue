@@ -1,10 +1,10 @@
 <script setup>
-import GitHeader from './components/GitHeader.vue'
+import IndexHeader from './components/GitHeader/IndexHeader.vue'
 </script>
 
 <template>
   <header>
-    <GitHeader />
+    <IndexHeader />
     <div class="wrapper"></div>
   </header>
 
