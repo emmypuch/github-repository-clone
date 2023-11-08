@@ -1,5 +1,7 @@
 <script setup>
 import IndexHeader from './components/GitHeader/IndexHeader.vue'
+import IndexRepo from './components/Repositories/IndexRepo.vue'
+import IndexUserData from './components/UserData/IndexUserData.vue'
 </script>
 
 <template>
@@ -8,5 +10,12 @@ import IndexHeader from './components/GitHeader/IndexHeader.vue'
     <div class="wrapper"></div>
   </header>
 
-  <main></main>
+  <main class="flex flex-col md:grid md:grid-cols-2 gap-2">
+    <div>
+      <IndexUserData class="p-0 md:p-4" />
+    </div>
+    <div>
+      <IndexRepo />
+    </div>
+  </main>
 </template>
