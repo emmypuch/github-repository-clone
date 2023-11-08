@@ -5,7 +5,9 @@
       <div>
         <img src="/src/assets/images/tihanapic.png" alt="" class="w-8 h-8 mt-1 rounded-[50%]" />
       </div>
-      <div class="user text-center hover:bg-[#DDE3E8] px-1 py-2 rounded-lg text-sm">emmypuch</div>
+      <div class="user text-center hover:bg-[#DDE3E8] px-1 py-2 rounded-lg text-sm text-[#1F2329]">
+        emmypuch
+      </div>
     </div>
     <div class="flex mt-2 md:mt-0">
       <ul class="flex gap-3">
