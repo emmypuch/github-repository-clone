@@ -1,7 +1,7 @@
 <template>
-  <div class="mt-4 ml-12">
-    <div class="relative">
-      <div class="image mt-6 ml-6 relative">
+  <div class="mt-4 ml-2 md:ml-12">
+    <div class="hidden md:relative">
+      <div class="image mt-6 ml-6 md:relative">
         <a href="#">
           <img
             src="/src/assets/images/tihanapic.png"
@@ -15,13 +15,40 @@
       >
         <img src="/src/assets/images/star.svg" alt="" class="w-4 h-4" />
       </div>
+      <!-- Name -->
+      <div class="userData">
+        <div class="mt-4 ml-4">
+          <h1 class="text-[1.7rem] text-[#1F2329]">Tihana Omowunmi</h1>
+          <p class="text-[1.4rem] text-gray-500">tihana . she/her</p>
+        </div>
+      </div>
     </div>
 
-    <!-- Name -->
-    <div class="userData">
-      <div class="mt-4 ml-4">
-        <h1 class="text-[1.7rem] text-[#1F2329]">Tihana Omowunmi</h1>
-        <p class="text-[1.4rem] text-gray-500">tihana . she/her</p>
+    <!-- Mobile -->
+    <div class="">
+      <div class="md:hidden flex">
+        <div class="image mt-6 ml-6 md:hidden">
+          <a href="#">
+            <img
+              src="/src/assets/images/tihanapic.png"
+              alt=""
+              class="w-[60px] h-[60px] rounded-[50%]"
+            />
+          </a>
+        </div>
+        <!-- Name -->
+        <div class="userData">
+          <div class="mt-6 ml-4">
+            <h1 class="text-[1.4rem] text-[#1F2329]">Tihana Omowunmi</h1>
+            <p class="text-[1.1rem] text-gray-500">tihana . she/her</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="md:hidden flex ml-4 mt-4 gap-[3px] border border-gray-400 rounded-lg px-[15px] text-center py-[6px]"
+      >
+        <div>👩‍💻</div>
+        <div class="text-[0.8rem] text-center text-[#1F2329] ml-2 mt-1">Always learning</div>
       </div>
     </div>
 
