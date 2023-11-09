@@ -12,7 +12,7 @@ import IndexUserData from './components/UserData/IndexUserData.vue'
 
   <main class="flex flex-col md:grid md:grid-cols-2 gap-2">
     <div>
-      <IndexUserData class="p-0 md:p-4" />
+      <IndexUserData class="p-0 md:p-6" />
     </div>
     <div>
       <IndexRepo />

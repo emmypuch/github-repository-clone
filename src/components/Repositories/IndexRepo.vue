@@ -3,7 +3,7 @@ import RepoSearch from './RepoSearch.vue'
 </script>
 
 <template>
-  <div>
+  <div class="pr-[3.5rem]">
     <RepoSearch class="p-4" />
   </div>
 </template>

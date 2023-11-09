@@ -1,17 +1,17 @@
 <template>
   <div class="mt-4 ml-12">
-    <div>
-      <div class="image mt-6 relative">
+    <div class="relative">
+      <div class="image mt-6 ml-6 relative">
         <a href="#">
           <img
             src="/src/assets/images/tihanapic.png"
             alt=""
-            class="w-[260px] h-[260px] relative rounded-[50%]"
+            class="w-[260px] h-[260px] rounded-[50%]"
           />
         </a>
       </div>
       <div
-        class="avatar absolute left-[280px] top-[360px] bg-white z-10 rounded-[50%] border border-gray-300 p-2 h-8 w-8"
+        class="avatar absolute left-[240px] top-[200px] bg-white z-10 rounded-[50%] border border-gray-300 p-2 h-8 w-8"
       >
         <img src="/src/assets/images/star.svg" alt="" class="w-4 h-4" />
       </div>
@@ -116,5 +116,39 @@
       </div>
     </div>
     <div class="bg-gray-200 w-[100%] md:w-[80%] h-[2px] mt-3 ml-4"></div>
+
+    <!-- Organization -->
+    <div class="organization-container ml-4 mt-4 pb-4">
+      <h3 class="text-[#1F2329] text-lg">Oragnizations</h3>
+      <div class="flex gap-[3px] mt-2">
+        <div>
+          <a href="#" class="">
+            <img
+              src="/src/assets/images/saraloge.jpeg"
+              alt=""
+              class="w-10 h-10 bg-transparent px-1 py-2 border border-gray-400 rounded-lg"
+            />
+          </a>
+        </div>
+        <div>
+          <a href="#" class="">
+            <img
+              src="/src/assets/images/logo.png"
+              alt=""
+              class="w-10 h-10 bg-transparent px-1 py-2 border border-gray-400 rounded-lg"
+            />
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <img
+              src="/src/assets/images/regal.jpeg"
+              alt=""
+              class="w-10 h-10 bg-transparent px-1 py-2 border border-gray-400 rounded-lg"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
