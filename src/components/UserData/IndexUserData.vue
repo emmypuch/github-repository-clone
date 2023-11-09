@@ -38,18 +38,83 @@
     </div>
 
     <!-- Follows -->
-    <div class="follow-container flex mt-4 ml-4 gap-2">
+    <div class="follow-container flex mt-4 ml-4 gap-1">
       <div class="follower flex">
         <img src="/src/assets/images/users.svg" alt="" class="w-4 h-4 mt-1" />
         <h6 class="ml-1 text-[1rem] text-gray-500">
           <span class="text-[#1F2329]">7</span> followers
         </h6>
       </div>
+      <span>.</span>
       <div class="follower flex">
         <h6 class="ml-1 text-[1rem] text-gray-500">
           <span class="text-[#1F2329]">30</span> following
         </h6>
       </div>
     </div>
+
+    <!-- Links -->
+    <div class="link-container mt-4 ml-4">
+      <ul>
+        <li class="flex gap-1">
+          <img src="/src/assets/images/office.svg" alt="" class="w-4 h-4 mt-[3px]" />
+          <p class="text-[#1F2329] text-base">Patricia Technologies</p>
+        </li>
+        <li class="flex gap-1 mt-1">
+          <img src="/src/assets/images/map.svg" alt="" class="w-4 h-4 mt-[3px]" />
+          <p class="text-[#1F2329] text-base">Lagos, Nigeria</p>
+        </li>
+        <li class="flex gap-1 mt-1">
+          <img src="/src/assets/images/email.svg" alt="" class="w-4 h-4 mt-[3px]" />
+          <a href="mailto:wunmiadesuyi@gmail.com" class="text-[#1F2329] text-base"
+            >tihana@gmail.com</a
+          >
+        </li>
+        <li class="flex gap-1 mt-1">
+          <img src="/src/assets/images/link.svg" alt="" class="w-4 h-4 mt-[3px]" />
+          <a href="#" target="_blank" class="text-[#1F2329] text-base">https://tihana.com</a>
+        </li>
+        <li class="flex gap-1 mt-1">
+          <img src="/src/assets/images/office.svg" alt="" class="w-4 h-4 mt-[3px]" />
+          <a href="#" target="_blank" class="text-[#1F2329] text-base">twitter.com</a>
+        </li>
+      </ul>
+    </div>
+    <div class="bg-gray-200 w-[100%] md:w-[80%] h-[2px] mt-3 ml-4"></div>
+
+    <!-- Achievements -->
+    <div class="achievement-container ml-4 mt-4">
+      <h3 class="text-[#1F2329] text-lg">Acchievements</h3>
+      <div class="flex gap-2 mt-2">
+        <div>
+          <a href="#">
+            <img src="/src/assets/images/starstruck.png" alt="" class="w-16 h-16" />
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <img src="/src/assets/images/pullshark.png" alt="" class="w-16 h-16" />
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <img src="/src/assets/images/arcticcode.png" alt="" class="w-16 h-16" />
+          </a>
+        </div>
+      </div>
+      <div class="btn flex gap-1 mt-3">
+        <div class="flex gap-2">
+          <div
+            class="text-[#1E7F39] text-[12px] text-center border border-[#1E7F39] py-[0.12rem] px-[0.5rem] rounded-[2rem]"
+          >
+            Beta
+          </div>
+          <div>
+            <a href="#" class="text-[#0D68D9] text-[13px] hover:underline">Send feedback</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-gray-200 w-[100%] md:w-[80%] h-[2px] mt-3 ml-4"></div>
   </div>
 </template>
