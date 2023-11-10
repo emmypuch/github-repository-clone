@@ -10,7 +10,7 @@ import IndexUserData from './components/UserData/IndexUserData.vue'
     <div class="wrapper"></div>
   </header>
 
-  <main class="flex flex-col md:grid md:grid-cols-2 gap-2">
+  <main class="">
     <div>
       <IndexUserData class="p-0 md:p-6" />
     </div>
@@ -19,3 +19,18 @@ import IndexUserData from './components/UserData/IndexUserData.vue'
     </div>
   </main>
 </template>
+
+<style>
+main {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+</style>

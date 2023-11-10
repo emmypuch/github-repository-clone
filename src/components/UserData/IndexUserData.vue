@@ -1,6 +1,6 @@
 <template>
   <div class="mt-4 ml-2 md:ml-12">
-    <div class="hidden md:relative">
+    <div class="desktop hidden md:block">
       <div class="image mt-6 ml-6 md:relative">
         <a href="#">
           <img
@@ -26,7 +26,7 @@
 
     <!-- Mobile -->
     <div class="">
-      <div class="md:hidden flex">
+      <div class="mobile md:hidden flex">
         <div class="image mt-6 ml-6 md:hidden">
           <a href="#">
             <img
@@ -107,7 +107,7 @@
         </li>
       </ul>
     </div>
-    <div class="bg-gray-200 w-[100%] md:w-[80%] h-[2px] mt-3 ml-4"></div>
+    <div class="bg-gray-200 w-[100%] md:w-[70%] h-[1px] mt-3 ml-4"></div>
 
     <!-- Achievements -->
     <div class="achievement-container ml-4 mt-4">
@@ -142,7 +142,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-gray-200 w-[100%] md:w-[80%] h-[2px] mt-3 ml-4"></div>
+    <div class="bg-gray-200 w-[100%] md:w-[70%] h-[1px] mt-3 ml-4"></div>
 
     <!-- Organization -->
     <div class="organization-container ml-4 mt-4 pb-4">
