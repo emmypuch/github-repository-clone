@@ -6,12 +6,12 @@
           <img
             src="/src/assets/images/tihanapic.png"
             alt=""
-            class="w-[260px] h-[260px] rounded-[50%]"
+            class="w-3/4 md:w-[260px] h-[240px] rounded-full md:rounded-[50%]"
           />
         </a>
       </div>
       <div
-        class="avatar absolute left-[240px] top-[200px] bg-white z-10 rounded-[50%] border border-gray-300 p-2 h-8 w-8"
+        class="avatar absolute left-[300px] top-[380px] bg-white z-10 rounded-[50%] border border-gray-300 p-2 h-8 w-8"
       >
         <img src="/src/assets/images/star.svg" alt="" class="w-4 h-4" />
       </div>

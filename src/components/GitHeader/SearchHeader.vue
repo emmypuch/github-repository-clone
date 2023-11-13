@@ -10,7 +10,7 @@
           <p class="text-center text-sm text-[#1F2329]">emmypuch</p>
         </div>
       </div>
-      <div class="flex mt-2 md:mt-0">
+      <div class="flex mt-2 md:mt-0 md:mr-4">
         <ul class="flex gap-3">
           <li class="border-solid border-[1px] border-gray-400 rounded-lg hover:bg-[#DDE3E8]">
             <router-link
@@ -40,16 +40,12 @@
             </div>
           </li>
           <li
-            class="border-solid border-[1px] border-gray-400 rounded-lg p-[5px] hover:bg-[#DDE3E8]"
+            class="flex items-center border-solid border-[1px] border-gray-400 rounded-lg px-[5px] py-[8px] hover:bg-[#DDE3E8]"
           >
             <img src="/src/assets/images/issue.svg" alt="" class="w-3 h-3 mr-2" />
           </li>
-          <li class="">
-            <img
-              src="/src/assets/images/tihanapic.png"
-              alt=""
-              class="w-10 h-10 mr-2 rounded-[50%]"
-            />
+          <li class="mt-[3px]">
+            <img src="/src/assets/images/tihanapic.png" alt="" class="w-8 h-8 rounded-[50%]" />
           </li>
         </ul>
       </div>

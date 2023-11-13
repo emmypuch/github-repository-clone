@@ -19,7 +19,7 @@ import GitFooter from './components/GitFooter.vue'
       <IndexRepo />
     </div>
   </main>
-  <div class="mt-4 ml-4 md:ml-20 md:mr-20 bg-gray-200 w-[100%] md:w-[100%] h-[1px]"></div>
+  <div class="mt-4 ml-4 md:ml-20 bg-gray-200 w-[100%] md:w-[90%] h-[1px]"></div>
   <footer>
     <GitFooter />
   </footer>
