@@ -2,6 +2,7 @@
 import IndexHeader from './components/GitHeader/IndexHeader.vue'
 import IndexRepo from './components/Repositories/IndexRepo.vue'
 import IndexUserData from './components/UserData/IndexUserData.vue'
+import GitFooter from './components/GitFooter.vue'
 </script>
 
 <template>
@@ -18,6 +19,10 @@ import IndexUserData from './components/UserData/IndexUserData.vue'
       <IndexRepo />
     </div>
   </main>
+  <div class="mt-4 ml-4 md:ml-20 md:mr-20 bg-gray-200 w-[100%] md:w-[100%] h-[1px]"></div>
+  <footer>
+    <GitFooter />
+  </footer>
 </template>
 
 <style>
