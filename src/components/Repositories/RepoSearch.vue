@@ -12,13 +12,6 @@ export default {
     toggleStar() {
       this.isStarred = !this.isStarred
     }
-    // toggleDropdown() {
-    //   console.log('toggleDropdown clicked')
-    //   this.isDropdownOpen = !this.isDropdownOpen
-    // },
-    // addItem() {
-    //   this.checklist.push('New Item')
-    // }
   }
 }
 </script>
@@ -187,9 +180,9 @@ export default {
         <div class="flex gap-2">
           <div class="flex gap-[3px]">
             <div class="rounded-[50%] bg-[#41B883] h-3 w-3 mt-[3px]"></div>
-            <div class="text-[0.8rem] text-[#666D76]">Vue</div>
+            <div class="text-[0.7rem] text-[#666D76]">Vue</div>
           </div>
-          <div class="text-[0.8rem] text-[#666D76]">Updated yesterday</div>
+          <div class="text-[0.7rem] text-[#666D76]">Updated yesterday</div>
         </div>
 
         <div
@@ -259,9 +252,9 @@ export default {
         <div class="flex gap-2">
           <div class="flex gap-[3px]">
             <div class="rounded-[50%] bg-[#41B883] h-3 w-3 mt-[3px]"></div>
-            <div class="text-[0.8rem] text-[#666D76]">Vue</div>
+            <div class="text-[0.7rem] text-[#666D76]">Vue</div>
           </div>
-          <div class="text-[0.8rem] text-[#666D76]">Updated yesterday</div>
+          <div class="text-[0.7rem] text-[#666D76]">Updated yesterday</div>
         </div>
 
         <div
@@ -331,9 +324,9 @@ export default {
         <div class="flex gap-2">
           <div class="flex gap-[3px]">
             <div class="rounded-[50%] bg-[#41B883] h-3 w-3 mt-[3px]"></div>
-            <div class="text-[0.8rem] text-[#666D76]">Vue</div>
+            <div class="text-[0.7rem] text-[#666D76]">Vue</div>
           </div>
-          <div class="text-[0.8rem] text-[#666D76]">Updated yesterday</div>
+          <div class="text-[0.7rem] text-[#666D76]">Updated yesterday</div>
         </div>
 
         <div
@@ -403,9 +396,9 @@ export default {
         <div class="flex gap-2">
           <div class="flex gap-[3px]">
             <div class="rounded-[50%] bg-[#41B883] h-3 w-3 mt-[3px]"></div>
-            <div class="text-[0.8rem] text-[#666D76]">Vue</div>
+            <div class="text-[0.7rem] text-[#666D76]">Vue</div>
           </div>
-          <div class="text-[0.8rem] text-[#666D76]">Updated yesterday</div>
+          <div class="text-[0.7rem] text-[#666D76]">Updated yesterday</div>
         </div>
 
         <div
@@ -475,9 +468,9 @@ export default {
         <div class="flex gap-2">
           <div class="flex gap-[3px]">
             <div class="rounded-[50%] bg-[#41B883] h-3 w-3 mt-[3px]"></div>
-            <div class="text-[0.8rem] text-[#666D76]">Vue</div>
+            <div class="text-[0.7rem] text-[#666D76]">Vue</div>
           </div>
-          <div class="text-[0.8rem] text-[#666D76]">Updated yesterday</div>
+          <div class="text-[0.7rem] text-[#666D76]">Updated yesterday</div>
         </div>
 
         <div
@@ -547,9 +540,9 @@ export default {
         <div class="flex gap-2">
           <div class="flex gap-[3px]">
             <div class="rounded-[50%] bg-[#41B883] h-3 w-3 mt-[3px]"></div>
-            <div class="text-[0.8rem] text-[#666D76]">Vue</div>
+            <div class="text-[0.7rem] text-[#666D76]">Vue</div>
           </div>
-          <div class="text-[0.8rem] text-[#666D76]">Updated yesterday</div>
+          <div class="text-[0.7rem] text-[#666D76]">Updated yesterday</div>
         </div>
 
         <div
@@ -577,22 +570,4 @@ export default {
 .line:hover + .text {
   display: block;
 }
-
-/* .dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content.show {
-  display: block;
-} */
 </style>

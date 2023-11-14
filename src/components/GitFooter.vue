@@ -45,7 +45,7 @@
         </div>
       </div>
       <div class="links mt-[3px]">
-        <ul class="flex flex-row gap-2">
+        <ul class="flex flex-col sm:flex-row flex-wrap gap-2 sm:gap-4">
           <li class="text-[#0869da] text-[0.8rem] hover:underline"><a href="#">Terms</a></li>
           <li class="text-[#0869da] text-[0.8rem] hover:underline"><a href="#">privacy</a></li>
           <li class="text-[#0869da] text-[0.8rem] hover:underline"><a href="#">Security</a></li>
