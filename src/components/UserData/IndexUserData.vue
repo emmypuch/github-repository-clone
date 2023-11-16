@@ -1,22 +1,23 @@
 <template>
   <div class="mt-4 ml-2 md:ml-12">
     <div class="desktop hidden md:block">
-      <div class="image mt-6 ml-6 md:relative">
-        <a href="#">
+      <div class="image md:relative h-[220px] w-[220px] mt-[4px] mr-auto mb-[4px] ml-auto">
+        <a href="#" class="">
           <img
             src="/src/assets/images/tihanapic.png"
             alt=""
-            class="w-3/4 md:w-[260px] h-[240px] rounded-full md:rounded-[50%]"
+            class="rounded-[50%] w-full object-contain h-auto"
           />
         </a>
+        <div
+          class="avatar absolute right-[-10px] top-[160px] bg-white rounded-[50%] border border-gray-300 flex justify-center items-center h-[38px] w-[38px]"
+        >
+          <img src="/src/assets/images/star.svg" alt="" class="w-4 h-4" />
+        </div>
       </div>
-      <div
-        class="avatar absolute left-[300px] top-[380px] bg-white z-10 rounded-[50%] border border-gray-300 p-2 h-8 w-8"
-      >
-        <img src="/src/assets/images/star.svg" alt="" class="w-4 h-4" />
-      </div>
+
       <!-- Name -->
-      <div class="userData">
+      <div class="userData w-full h-200px">
         <div class="mt-4 ml-4">
           <h1 class="text-[1.7rem] text-[#1F2329]">Tihana Omowunmi</h1>
           <p class="text-[1.4rem] text-gray-500">tihana . she/her</p>

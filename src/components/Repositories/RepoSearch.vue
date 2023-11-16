@@ -66,10 +66,10 @@ export default {
 
     <!-- Mobile view -->
     <div class="flex-col md:hidden ml-2 mr-0">
-      <div>
+      <div class="">
         <a href="#" class="flex gap-[3px] bg-[#1E883E] px-[15px] text-center py-[6px] rounded-lg">
           <img src="/src/assets/images/rep.svg" alt="" class="w-3 h-3 mt-[1px]" />
-          <p class="text-[#f2f7f3] text-[0.9rem]">New</p>
+          <p class="text-[#f2f7f3] text-[0.9rem] text-center">New</p>
         </a>
       </div>
       <div class="input w-full mr-6 mt-6">

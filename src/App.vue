@@ -19,7 +19,7 @@ import GitFooter from './components/GitFooter.vue'
     </div>
     <div>
       <IndexRepo />
-      <div class="flex justify-center items-center gap-4 mt-10">
+      <div class="flex justify-center items-center gap-4 mt-6">
         <div>
           <IndexPrev />
         </div>
